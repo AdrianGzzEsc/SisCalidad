@@ -1,0 +1,500 @@
+html, body {
+    margin: 0;
+    background-color: white;
+    font-size: 14px;
+}
+
+.headerLine {
+    height: 0.5em;
+}
+
+.title {
+    /* font-size: 2.25em; */
+    font-size: 5vw;
+    /* margin-top: 20px; */
+    color: #291576;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imagen {
+    width: 25vw;
+    height: auto;
+}
+
+.form-control {
+    height: 3em;
+    /* margin-bottom: 20px; */
+}
+/* style="width: fit-content; margin-left: 10%;" */
+
+.subtitle {
+    font-size: 1.8em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    display: flex;
+    color: #291576;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.subtitle3 {
+    font-size: 1.75em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    color: #291576;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.subtitle2 {
+    margin-top: 0.7%;
+    display: flex;
+    font-size: small;
+    color: #291576;
+    justify-content: center;
+}
+
+.subtitle4 {
+    margin-top: 0.7%;
+    display: flex;
+    font-size: 30px;
+    color: #291576;
+    margin-bottom: 2%;
+    justify-content: center;
+}
+
+.collapseHeader {
+    text-decoration: none;
+    color: inherit;
+}
+
+.collapseHeader:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.flexx {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-right: 1%;
+}
+
+.flex5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1%;
+}
+
+.flex6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flex7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.flex4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.myButton {
+    box-shadow: 0px 2px 5px 1px #6d758e;
+    background: linear-gradient(to bottom, #292573 5%, #476e9e 100%);
+    background-color: #17275c;
+    border-radius: 10px;
+    border: 1px solid #291576;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    text-align: center;
+    width: 100%;
+    font-size: 1em;
+    padding: 1em 0;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #291576;
+    max-width: 60vw;
+    margin: 0.8em 0;
+}
+
+.myButton.login, .myButton.w100 {
+    max-width: none;
+}
+
+.myButton.logout {
+    margin-top: 2em;
+}
+
+.myButton.logout, .myButton.btn-red {
+    background: linear-gradient(to bottom, #822323 5%, #ba3333 100%);
+    background-color: #9f1b1b;
+    border: 1px solid #500e0e;
+}
+
+.myButton2 {
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background: linear-gradient(to bottom, #292573 5%, #476e9e 100%);
+    background-color: #291576;
+    border-radius: 10px;
+    border: 1px solid #291576;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    text-align: center;
+    width: 300px;
+    font-size: 15px;
+    padding: 12px 37px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #291576;
+}
+
+.myButton3 {
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background: linear-gradient(to bottom, #292573 5%, #476e9e 100%);
+    background-color: #291576;
+    border-radius: 10px;
+    border: 1px solid #291576;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    text-align: center;
+    width: 150px;
+    font-size: 19px;
+    padding: 12px 37px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #291576;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #1f3261 5%, #293c7b 100%);
+    background-color: #291576;
+    text-decoration: none;
+    color: rgb(220, 220, 220);
+}
+.myButton.logout:hover, .myButton.btn-red:hover {
+    background: linear-gradient(to bottom, #720404 5%, #7e0b0b 100%);
+    background-color: #291576;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.myButton2:hover {
+    background: linear-gradient(to bottom, #291576 5%, #291576 100%);
+    background-color: #291576;
+    text-decoration: none;
+    color: rgb(220, 220, 220);
+}
+
+.myButton2:active {
+    position: relative;
+    top: 1px;
+}
+
+.myButton3:hover {
+    background: linear-gradient(to bottom, #291576 5%, #291576 100%);
+    background-color: #291576;
+    text-decoration: none;
+    color: rgb(220, 220, 220);
+}
+
+.myButton3:active {
+    position: relative;
+    top: 1px;
+}
+
+.complete {
+    display: flex;
+    flex: 1;
+    color: #dddddd;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+.separar {
+    margin-left: 1%;
+}
+
+label {
+    margin-top: 3%;
+}
+
+input {
+    margin-top: 2%;
+}
+
+select {
+    margin-top: 2%;
+}
+
+textarea.estado {
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    border: none;
+}
+
+textarea.defectos {
+    height: 40px;
+    width: 50px;
+    margin-left: 10%;
+    resize: none;
+    border: none;
+    text-align: center;
+    margin-right: 3px;
+}
+
+textarea.rechazado {
+    color: rgb(162, 12, 12);
+}
+
+textarea.estado, textarea.resumen {
+    resize: none;
+}
+
+.table  {
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    text-align: center;
+
+}
+
+thead.tabla {
+    background-color: rgb(89, 96, 121);
+
+}
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Dropdown button on hover & focus */
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+
+/* The search field */
+
+#myInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* The search field when it gets focus/clicked on */
+
+#myInput:focus {
+    outline: 3px solid #ddd;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display: block;
+}
+
+#botonajuste{
+    margin-top: 30%;
+    margin-bottom: 10%;
+    margin-left: 48%;
+}
+
+@media (min-width:991px) and (max-width: 1200px)  {
+    #botonajuste{
+      margin-left: 70%;
+    }
+
+}
+/*Device = Tablets, Ipads (portrait)
+  Screen = B/w 600px to 990px*/
+  @media (min-width:768px) and (max-width: 990px)  {
+      #botonajuste{
+        margin-left: 70%;
+      }
+
+}
+/*  Small devices    */
+@media (max-width:767px) {
+    #botonajuste{
+        margin-left: 0;
+    }
+}
+
+#textoHeader {
+    font-size: 1.20em;
+}
+
+
+/* XL */
+@media (min-width: 1199.99px) {
+    /* html {
+        font-size: 1em;
+    } */
+    /* #img-header {
+        margin: 0 3em 0 0;
+    } */
+    /* #texto-header {
+        font-size: 2.25em;
+    } */
+    .myButton {
+        font-size: 1.25em;
+    }
+    .subtitle {
+        font-size: 1.8em;
+    }
+}
+
+/* LG */
+@media (max-width: 1199.98px) {
+    /* html {
+        font-size: 1.1em;
+    } */
+    /* #img-header {
+        margin: 0 3em 0 0;
+    } */
+    /* #texto-header {
+        font-size: 4em;
+    } */
+    
+}
+
+/* MD */
+@media (max-width: 991.98px) {
+    /* html {
+        font-size: 1em;
+    } */
+    /* #img-header {
+        margin: 0 3em 0 0;
+    } */
+    /* #texto-header {
+        font-size: 2.5em;
+    } */
+    .myButton {
+        font-size: inherit;
+    }
+
+    .subtitle {
+        font-size: inherit;
+    }
+}
+
+/* SM */
+@media (max-width: 767.98px) {
+    /* html {
+        font-size: 1em;
+    } */
+    /* #img-header {
+        margin: 0 3em;
+    } */
+    /* #texto-header {
+        font-size: 2em;
+    } */
+}
+
+/* XS */
+@media (max-width: 575.98px) {
+    /* html {
+        font-size: 0.6em;
+    } */
+    /* #texto-header {
+        font-size: 1.5em;
+    } */
+}
